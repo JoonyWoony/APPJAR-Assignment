@@ -155,10 +155,11 @@ with gui("Travel App", "1920x1080", bg='yellow', font={'size': 16}) as loginedap
         "Statistics", "Area: 42.38 km²\nTemperature: 27 °C, Wind S at 13 km/h\nPopulation: 74,800\nPopular Places to Visit: Sacred Monkey Forest Sanctuary, Saraswati Temple, Campuhan Ridge Walk")
     loginedapp.image("CountryImage", 'Ulsan.jpg')
     loginedapp.entry("Search Country", label=True, focus=True)
-    loginedapp.addButtons(["Log out", "Change Country", "Search"], [
-                          loginedapp.stop, images, search])
+    loginedapp.addButtons(["Change Country", "Search", "Close Application"], [
+        images, search, loginedapp.stop])
     loginedapp.startLabelFrame("SimpleFrame", 0, 1, 1)
     loginedapp.setLabelFrameTitle(
         "SimpleFrame", "Recommended Place to Visit: Museum Puri Lukisan")
     loginedapp.addImage("Simple", 'Attraction1.png')
     loginedapp.stopLabelFrame()
+    loginedapp.setSize("fullscreen")
