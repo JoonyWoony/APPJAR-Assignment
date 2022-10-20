@@ -23,54 +23,54 @@ def press():
                      "Your password or username was invalid.")
 
 
-def korea():  # Makes life so much easier
+def seoul():  # Makes life so much easier
     loginedapp.setLabel(
         'Welcome to Travel App', f'{username}, you are currently viewing: The experience of rich and unique Asian culture, Seoul (South Korea)')
-    loginedapp.setLabel("ConInfo", "Seoul is the most amazing place to visit, offering amazing food, intriguing old culture, cutting-edge modern art, fashion, and technology, as well as the nicest people who want you to fall in love with their city and nation.")
+    loginedapp.setLabel("ConInfo", "Seoul is the most amazing place to visit, offering amazing food, intriguing old culture, cutting-edge modern art,\n fashion, and technology, as well as the nicest people who want you to fall in love with their city and nation.")
     loginedapp.setLabel(
         "Statistics", "Area: 605.2 km²\nTemperature: 22 °C, Wind 8km/h, 49% Humidity\nPopulation: 9,400,000\nPopular Places to Visit: N Seoul Tower, Myeong-Dong, Lotte World, Gyeongbokgung Palace, Lotte Tower")
-    loginedapp.setImage("CountryImage", 'Deagu.jpg')
-    loginedapp.reloadImage("CountryImage", 'Deagu.jpg')
-
-
-def america():
-    loginedapp.setLabel(
-        'Welcome to Travel App', f'{username}, you are currently viewing: Stunning beauty and the city that `Never Sleeps` Washington D.C (America)'
-    )
-    loginedapp.setLabel("ConInfo", "Washington, DC, one of the most visited cities in the USA, provides a range of engaging activities, from discovering American history and politics to visiting several of the nation's most famous landmarks. Great cuisine, fine art, cultural activities, and much more can be found in this dynamic city.")
-    loginedapp.setLabel(
-        "Statistics", "Area: 177 km²\nTemperature: 9 °C, Wind N at 0 km/h, 85% Humidity\nPopulation: 701,974\nPopular Places to Visit: United States Capitol, White House, Library of Congress, Lincoln Memorial")
     loginedapp.setImage("CountryImage", 'Seoul.jpg')
     loginedapp.reloadImage("CountryImage", 'Seoul.jpg')
 
 
-def bali():
+def incheon():
     loginedapp.setLabel(
-        'Welcome to Travel App', f'{username}, you are currently viewing: The city of Ubud `Isle Of Gods` Bali (Indonesia)'
+        'Welcome to Travel App', f'{username}, you are currently viewing: The origin of Incheon International Airport, Incheon (South Korea)'
     )
-    loginedapp.setLabel("ConInfo", "In the highlands of Bali, Indonesia, the town of Ubud is renowned as a hub for traditional arts and dance. What makes Indonesia a beautiful place to visit is theability to stopover in a variety of locations. Natural scenery is beautiful, and its inhabitants have a variety of distinctive cultures. ")
+    loginedapp.setLabel("ConInfo", "Tourists can find historical sites and significant locations all across the city.\nVisit Jayu Park, Chinatown, and the locations of the battles in Ganghwa-do to hear their untold tales.\nAnother reason travelers adore Incheon is the stunning backdrop the West Sea and its numerous islands provide.")
     loginedapp.setLabel(
-        "Statistics", "Area: 42.38 km²\nTemperature: 27 °C, Wind S at 13 km/h\nPopulation: 74,800\nPopular Places to Visit: Sacred Monkey Forest Sanctuary, Saraswati Temple, Campuhan Ridge Walk")
+        "Statistics", "Area: 1,066 km²\nTemperature: 11°C, Wind E at 5 km/h, 77% Humidity\nPopulation: 2,923,000]\nPopular Places to Visit: Songdo Central Park, Wolmido, Chinatown Incheon, Muuido, Incheon Bridge")
     loginedapp.setImage("CountryImage", 'Incheon.jpg')
     loginedapp.reloadImage("CountryImage", 'Incheon.jpg')
 
 
-def australia():
-    loginedapp.setLabel('Welcome to Travel App',
-                        f'{username}, you are currently viewing: Unique natural wonders and exotic wildlife, Sydney (Australia)')
-    loginedapp.setLabel("ConInfo", "Why do I love Sydney? There are a lot of items on that list, I suppose. Great food, breathtaking scenery, the beach AND the city are both within reach, and the area is home to a multicultural population from all over the world.")
+def daegu():
     loginedapp.setLabel(
-        "Statistics", "Area: 12,368 km²\nTemperature: 18 °C, Wind NE at 13 km/h, 65% Humidity\nPopulation: 5,312,000\nPopular Places to Visit: Sydney Opera House, Bondi Beach, Sydney Harbour Bridge, Taronga Zoo Sydney")
+        'Welcome to Travel App', f'{username}, you are currently viewing: Ancient culture and numerous scenic attractions, Daegu (South Korea)'
+    )
+    loginedapp.setLabel("ConInfo", "Daegu is one of the biggest cities in South Korea, and in addition to its numerous visual features and stunning mountains, it also boasts a rich and historical culture.\nExperience historical landmarks from the Silla and Joseon dynasties, as well as beautiful vistas of the Palgongsan and Apsan mountains.")
+    loginedapp.setLabel(
+        "Statistics", "Area: 886.6 km²\nTemperature: 8°C, Wind SE at 5 km/h, 69% Humidity\nPopulation: 2,465,000\nPopular Places to Visit: Seomun Market, Daegu 83 Tower, Apsan Park, Palgongsan, Daegu Art Museum")
+    loginedapp.setImage("CountryImage", 'Deagu.jpg')
+    loginedapp.reloadImage("CountryImage", 'Deagu.jpg')
+
+
+def daejeon():
+    loginedapp.setLabel('Welcome to Travel App',
+                        f'{username}, you are currently viewing: The city of Science, Daejeon (South Korea)')
+    loginedapp.setLabel("ConInfo", "Daejeon is known for being a transportation center and a city of science in South Korea, therefore there are many of things to do there.\nYou can take advantage of a wide range of sights and experiences in the city that is home to the KAIST national research university and Daedeok Science Town.")
+    loginedapp.setLabel(
+        "Statistics", "Area: 539.8 km²\nTemperature: 8°C, Wind NW at 2 km/h, 78% Humidity\nPopulation: 1,531,000\nPopular Places to Visit: Daejeon World, National Science Museum, Cheongnamdae")
     loginedapp.setImage("CountryImage", 'Daejeon.jpg')
     loginedapp.reloadImage("CountryImage", 'Daejeon.jpg')
 
 
-def japan():
+def ulsan():
     loginedapp.setLabel('Welcome to Travel App',
-                        f'{username}, you are currently viewing: Tradition overalapped with cutting edge technology, Tokyo (Japan)')
+                        f'{username}, you are currently viewing: rocky cliffs and sandy beaches, Ulsan (South Korea)')
     loginedapp.setLabel(
-        "Statistics", "Area: 2,194 km²\nTemperature: 23 °C, Wind E at 6 km/h, 73% Humidity\nPopulation: 13,960,000\nPopular Places to Visit: Tokyo Skytree, Meiji Jingu, Senso-Ji, Tokyo DisneyLand")
-    loginedapp.setLabel("ConInfo", "Staying in Tokyo may provide you with a wealth of cultural experiences and a plethora of fresh memories. Keeping an open mind while you navigate the city might help you discover unique stores, eateries, and even just scenery. You might partake in a customary cultural event or try something new.")
+        "Statistics", "Area: 1,057 km²\nTemperature: 14°C, Wind N at 5 km/h, 43% Humidity\nPopulation: 1,166,000\nPopular Places to Visit: Daewangam Park, Taehwagang National Garden, Llsan Beach")
+    loginedapp.setLabel("ConInfo", "the south-easternmost point of the Korean peninsula, known for its striking craggy cliffs and extensive swaths of sandy beaches.\nIt is famous for whaling, whale viewing, and having the biggest automobile manufacturing plant in the world.")
     loginedapp.setImage("CountryImage", 'Ulsan.jpg')
     loginedapp.reloadImage("CountryImage", 'Ulsan.jpg')
 
@@ -79,64 +79,65 @@ def images():
     global count
     count += 1
     if count == 1:
-        japan()
+        seoul()
     elif count == 2:
-        australia()
+        daegu()
     elif count == 3:
-        america()
+        daejeon()
     elif count == 4:
-        korea()
+        ulsan()
     elif count == 5:
-        bali()
+        incheon()
     else:
-        loginedapp.errorBox("ERROR | FINISHED_COUNTRY_CYCLE",
-                            "You have already finished cycling through all countries that are available.")
+        count -= 5
+        loginedapp.infoBox("CYCLE_FINISHED", "Hey! You finished cycling through all the cities that are available. Your cycle has been resetted")
+        print(f'[RESET NOTIFICATION] Counter has been resetted. Incrementing from {count} now.')
 
 
 def search():
-    entryinput = loginedapp.entry("Search Country").lower()
+    entryinput = loginedapp.entry("Search City").lower()
     print(f"Searching Country with Input: {entryinput}")
     username = app.entry("Username").lower()
-    if entryinput == 'japan':
+    if entryinput == 'daegu':
         loginedapp.infoBox(
             f"Search Successful| {entryinput}", f"Hey {username}, you searched for {entryinput}.\nThe following country is being processed.")
         print("Loading Country Map... may take around 10 seconds :)")
         loginedapp.clearAllEntries()
-        japan()
+        daegu()
         loginedapp.setSize("fullscreen")
-    elif entryinput == 'australia':
+    elif entryinput == 'incheon':
         loginedapp.infoBox(
             f"Search Successful| {entryinput}", f"Hey {username}, you searched for {entryinput}.\nThe following country is being processed.")
         print("Loading Country Map... may take around 10 seconds :)")
         loginedapp.clearAllEntries()
-        australia()
+        incheon()
         loginedapp.setSize("fullscreen")
-    elif entryinput == 'korea':
+    elif entryinput == 'seoul':
         loginedapp.infoBox(
             f"Search Successful| {entryinput}", f"Hey {username}, you searched for {entryinput}.\nThe following country is being processed.")
         print("Loading Country Map... may take around 10 seconds :)")
         loginedapp.clearAllEntries()
-        korea()
+        seoul()
         loginedapp.setSize("fullscreen")
-    elif entryinput == 'america':
+    elif entryinput == 'ulsan':
         loginedapp.infoBox(
             f"Search Successful| {entryinput}", f"Hey {username}, you searched for {entryinput}.\nThe following country is being processed.")
         print("Loading Country Map... may take around 10 seconds :)")
         loginedapp.clearAllEntries()
-        america()
+        ulsan()
         loginedapp.setSize("fullscreen")
-    elif entryinput == 'bali':
+    elif entryinput == 'daejeon':
         loginedapp.infoBox(
             f"Search Successful| {entryinput}", f"Hey {username}, you searched for {entryinput}.\nThe following country is being processed.")
         print("Loading Country Map... may take around 10 seconds :)")
         loginedapp.clearAllEntries()
-        bali()
+        daejeon()
         loginedapp.setSize("fullscreen")
     else:
         loginedapp.clearAllEntries()
-        print('[ERROR] Callback -> Entered Country Not Found')
-        loginedapp.errorBox("Could Not Find Country! | ERROR",
-                            "We were unable to find the country entered. Countries Available are: america, korea, australia, japan, bali")
+        print('[ERROR] Callback -> Entered City Not Found')
+        loginedapp.errorBox("Could Not Find City! | ERROR",
+                            "We were unable to find the city entered. Countries Available are: incheon, daejeon, daegu, ulsan, seoul")
 
 
 with gui("Login Window", "400x200", bg='orange', font={'size': 16}) as app:
@@ -148,13 +149,13 @@ with gui("Login Window", "400x200", bg='orange', font={'size': 16}) as app:
 with gui("Travel App", "1920x1080", bg='yellow', font={'size': 16}) as loginedapp:
     username = app.entry("Username")
     loginedapp.label('Welcome to Travel App',
-                     f"{username}, you are currently viewing: The city of Ubud `Isle Of Gods` Bali (Indonesia)", bg='green')
-    loginedapp.addLabel("ConInfo", "In the highlands of Bali, Indonesia, the town of Ubud is renowned as a hub for traditional arts and dance. What makes Indonesia a beautiful place to visit is theability to stopover in a variety of locations.")
+                     f"{username}, you are currently viewing: The origin of Incheon International Airport, Incheon (South Korea)", bg='green')
+    loginedapp.addLabel("ConInfo", "Tourists can find historical sites and significant locations all across the city.\nVisit Jayu Park, Chinatown, and the locations of the battles in Ganghwa-do to hear their untold tales.\nAnother reason travelers adore Incheon is the stunning backdrop the West Sea and its numerous islands provide.")
     loginedapp.setLabelFont(size=10)
     loginedapp.addLabel(
         "Statistics", "Area: 42.38 km²\nTemperature: 27 °C, Wind S at 13 km/h\nPopulation: 74,800\nPopular Places to Visit: Sacred Monkey Forest Sanctuary, Saraswati Temple, Campuhan Ridge Walk")
-    loginedapp.image("CountryImage", 'Ulsan.jpg')
-    loginedapp.entry("Search Country", label=True, focus=True)
+    loginedapp.image("CountryImage", 'Incheon.jpg')
+    loginedapp.entry("Search City", label=True, focus=True)
     loginedapp.addButtons(["Change Country", "Search", "Close Application"], [
         images, search, loginedapp.stop])
     loginedapp.startLabelFrame("SimpleFrame", 0, 1, 1)
